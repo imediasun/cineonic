@@ -12,12 +12,12 @@ import * as VueGoogleMaps from "vue2-google-maps"
 import 'vue-multiselect/dist/vue-multiselect.min.css'
 // i18n
 import i18n from './i18n/i18n.js'
-import "vue-hljs/dist/style.css";
+import "/app/node_modules/vue-hljs/dist/style.css";
 Vue.use(VueFeather);
 
 Vue.config.productionTip = false;
 
-import vueHljs from "vue-hljs";
+import vueHljs from "/app/node_modules/vue-hljs";
 import hljs from "highlight.js";
 
 Vue.use(VueGoogleMaps, {

@@ -75,13 +75,5 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "exports": {
-    ".": {
-    },
-    "./dist/style.css": {
-      "import": "./dist/style.css",
-      "require": "./dist/style.css"
-    }
-  }
+  ]
 }
