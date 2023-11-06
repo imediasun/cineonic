@@ -1,0 +1,40 @@
+.main_nav{
+    display: flex;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    justify-content: center;
+}
+.main_nav > ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center ;
+    font-size: 14px;
+
+}
+.main_nav > ul > li {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.main_nav > ul > li:hover{
+    cursor: pointer;
+    color: #018149;
+}
+.bubble_indicator{
+    text-align: center;
+    border-radius: 60%;
+    padding: 2px 5px ;
+    color: white;
+    background-color: #018149;
+}
+.non_active{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    text-decoration: none;
+    color: #018149;
+}

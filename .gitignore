@@ -1,0 +1,5 @@
+api-backend/vendor
+api-backend/storage
+!api-backend/storage/api-docs
+api-backend/.env
+.env

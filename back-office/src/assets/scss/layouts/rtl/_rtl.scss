@@ -1,0 +1,65 @@
+[dir="rtl"] {
+  @import "spacing-rtl";
+  text-align: right;
+  direction: rtl;
+  body {
+    text-align: right;
+  }
+  .ml-auto {
+    margin-right: auto;
+    margin-left: unset !important;
+  }
+  .mr-auto {
+    margin-left: auto;
+    margin-right: unset !important;
+  }
+  .dropdown-menu {
+    left: auto;
+    right: 0;
+    text-align: right;
+  }
+  .dropdown-menu-right {
+    right: auto;
+    left: 0;
+  }
+
+  .navbar-nav,
+  .nav {
+    padding-right: 0;
+  }
+  .dropdown-toggle::after {
+    margin-right: 7px;
+    margin-left: 0px;
+  }
+  .close-sidebar-btn {
+    left: 20px;
+    right: auto;
+  }
+  .breadcrumb-item + .breadcrumb-item {
+    padding-left: 0;
+    padding-right: 8px;
+    &::before {
+      float: right;
+      padding-left: 0.5rem;
+      padding-right: 0px;
+    }
+  }
+  .list-group {
+    padding-right: 0;
+  }
+  //   widgets
+  .chat-list {
+    .left-msg .chat {
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 25px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+    .right-msg .chat {
+      border-top-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 25px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+// dashboard 1
+$active-bg: url(../images/background/active-bg.png) no-repeat top center;
+
+.active-bg {
+  background: $active-bg;
+}
+
+// dashboard 2
+
+// Chart Inner Icons
+.chart-inner-icon {
+  position: absolute;
+  top: 25px;
+  left: 32px;
+}
+
+// dashboard 3
+.productsales-margin {
+  margin-top: -40px;
+}
+
+@include media-breakpoint-down(sm) {
+  .productsales-margin {
+    margin-top: 20px;
+  }
+}
